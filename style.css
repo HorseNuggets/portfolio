@@ -1,0 +1,126 @@
+* {
+    color-scheme: dark;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif, serif;
+}
+
+body {
+    background-color: #151515;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+#landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.project-item {
+    width: 40%;
+    margin: 1rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+#skills {
+    width: 50%;
+}
+
+#links {
+    height: 16rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#links div {
+    margin: 1rem;
+    background-color: #333;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    margin: 5rem;
+}
+
+.skill-item {
+    width: 8rem;
+    height: 4rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    background-color: #222222;
+}
+
+#navbar button {
+    width: 6rem;
+    background-color: #00000000;
+    border: none;
+    font-size: 1rem;
+    transition: all 150ms;
+    cursor: pointer;
+}
+
+#navbar button:hover {
+    color: rgba(106, 147, 236);
+}
+
+#style-toggler {
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    background-color: #222222;
+    align-items: center;
+}

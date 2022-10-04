@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Christopher Colling - Portfolio</title>
+
+    <link rel="stylesheet" href="./styles/dark.css" id="css">
+    <link rel="shortcut icon" href="./images/noobicon.png" type="image/x-icon">
+    <script src="./scripts/toggle-style.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <a href="./index.html"><button>About</button></a>
+            <a href="./portfolio.html"><button>Portfolio</button></a>
+            <a href="./skills.html"><button>Skills</button></a>
+            <a href="./service.html"><button>Service</button></a>
+            <a href="./contact.html"><button>Contact</button></a>
+        </div>
+        <div id="portfolio-container">
+            <h3>Portfolio</h3>
+            <div id="portfolio">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>Heckergame</h4>
+                        <ul>
+                            <li>A fun, competitive programming website where anyone can compete against each other solving C++ questions</li>
+                            <li>Inspired off of Kahoot and Codingame</li>
+                            <li><a href="https://www.heckergame.com/" target="_blank">heckergame.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="img-container">
+                        <img src="./images/heck.png">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>TerminatorPlus</h4>
+                        <ul>
+                            <li>A machine learning AI project that trains bots in the video game Minecraft to hunt players down</li>
+                            <li>This project has amassed millions of views on my YouTube, and is public on my GitHub</li>
+                            <li><a href="https://www.github.com/HorseNuggets/TerminatorPlus" target="_blank">github.com/HorseNuggets/TerminatorPlus</a></li>
+                        </ul>
+                    </div>
+                    <div class="img-container">
+                        <img src="./images/tplus.png">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>Jedf Games, Roblox</h4>
+                        <ul>
+                            <li>A new Roblox development group I am the leader of, creating games with an extremely physics-based movement system</li>
+                            <li><a href="https://roblox.com/groups/13032636" target="_blank">roblox.com/groups/13032636</a></li>
+                        </ul>
+                    </div>
+                    <div class="img-container">
+                        <img src="./images/jedfgames.png">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h4>Juan, Discord Bot</h4>
+                        <ul>
+                            <li>A Discord bot that adds extra safety/moderation features to Discord that can detect spam/malicious accounts</li>
+                            <li>Includes fun minigames and hooks with my YouTube and Roblox game stats</li>
+                        </ul>
+                    </div>
+                    <div class="img-container">
+                        <img src="./images/juan.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="style-toggle" onclick="toggleStyle()">Light Theme</button>
+</body>
+</html>
